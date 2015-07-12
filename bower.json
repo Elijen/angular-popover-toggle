@@ -12,7 +12,10 @@
     "angular-ui",
     "angular-bootstrap",
     "popover",
-    "popover-toggle"
+    "popover-toggle",
+    "ui-popover",
+    "bootstrap",
+    "toggle"
   ],
   "dependencies": {
     "angular-bootstrap": "*"

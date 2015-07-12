@@ -1,2 +1,2 @@
 # angular-popover-toggle
-popoverToggle directive allowing programatical control over AngularUI's popover
+popoverToggle directive allowing manual control over AngularUI's popover

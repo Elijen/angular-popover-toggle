@@ -3,16 +3,19 @@
 
 ## Installation
 Download and include the `popover-toggle.js` file after AngularJS on your page. You can use Bower: 
-
-    bower install angular-popover-toggle
+```
+bower install angular-popover-toggle
+```
 
 Declare a dependency on `popoverToggle` in your module:
-
-    angular.module('YourModule', ['ui.bootstrap', 'popoverToggle']);
+```JavaScript
+angular.module('YourModule', ['ui.bootstrap', 'popoverToggle']);
+```
 
 ## Usage
 Now you can use `popover-toggle` directive in addition to `popover` and `popover-template` directives:
-
-    <div ng-init="isPopoverOpen = true">
-        <span popover="Hello World!" popover-toggle="isPopoverOpen">There is a popover above me!</span>
-    </div>
+```HTML
+<div ng-init="isPopoverOpen = true">
+    <span popover="Hello World!" popover-toggle="isPopoverOpen">There is a popover above me!</span>
+</div>
+```

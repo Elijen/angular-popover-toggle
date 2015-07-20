@@ -21,3 +21,9 @@ Now you can use `popover-toggle` directive in addition to `popover` and `popover
     <span popover="Hello World!" popover-toggle="isPopoverOpen">There is a popover above me!</span>
 </div>
 ```
+
+### Example usage with simple `popover`:
+http://plnkr.co/edit/QeQqqEJAu1dCuDtSvomD?p=preview
+
+### Example usage with `popover-template`:
+http://plnkr.co/edit/SBX3GPUFLYaKnjATbFtQ?p=preview

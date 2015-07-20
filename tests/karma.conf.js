@@ -16,7 +16,12 @@ module.exports = function(config) {
         ],
 
         browsers: [
-            'Chrome'
+            'Chrome',
+            'Firefox'
+        ],
+
+        reporters: [
+            'dots'
         ],
 
         plugins: [

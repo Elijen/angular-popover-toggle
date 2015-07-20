@@ -15,11 +15,14 @@ module.exports = function(config) {
             'jasmine'
         ],
 
-        browsers: ['Chrome'],
+        browsers: [
+            'Chrome'
+        ],
 
         plugins: [
             'karma-jasmine',
-            'karma-chrome-launcher'
+            'karma-chrome-launcher',
+            'karma-firefox-launcher'
         ]
     });
 };

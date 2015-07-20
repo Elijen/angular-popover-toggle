@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Elijen/angular-popover-toggle.svg?branch=master)](https://travis-ci.org/Elijen/angular-popover-toggle)
+
 # angular-popover-toggle
 `popoverToggle` directive allowing manual control over AngularUI's popovers
 

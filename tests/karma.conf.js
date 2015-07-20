@@ -16,18 +16,11 @@ module.exports = function(config) {
         ],
 
         browsers: [
-            'Chrome',
-            'Firefox'
+            'Chrome'
         ],
 
         reporters: [
             'dots'
-        ],
-
-        plugins: [
-            'karma-jasmine',
-            'karma-chrome-launcher',
-            'karma-firefox-launcher'
         ]
     });
 };

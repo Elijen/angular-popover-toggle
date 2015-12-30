@@ -21,13 +21,17 @@
 
         function link($scope, $element, $attrs) {
             $attrs.popoverTrigger = POPOVER_SHOW;
+            
+            var event;
 
             $scope.$watch($attrs.popoverToggle, function(newValue) {
                 $timeout(function(){
                     if(newValue) {
-                        $element.triggerHandler(POPOVER_SHOW);
+                        event=new Event(POPOVER_SHOW);
+                        $element[0].dispatchEvent(event);
                     } else {
-                        $element.triggerHandler(POPOVER_HIDE);
+                        event=new Event(POPOVER_HIDE);
+                        $element[0].dispatchEvent(event);
                     }
                 });
             })

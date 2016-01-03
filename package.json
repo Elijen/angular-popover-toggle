@@ -19,7 +19,7 @@
     "karma-jasmine": "^0.3.6"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --single-run --browsers Firefox,Chrome tests/karma.conf.js"
+    "test": "./node_modules/.bin/karma start tests/karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 module.exports = function(config) {
-    config.set({
+    var configuration = {
         basePath: '../',
 
         files: [
@@ -19,8 +19,21 @@ module.exports = function(config) {
             'Chrome'
         ],
 
+        customLaunchers: {
+            Chrome_travis_ci: {
+                base: 'Chrome',
+                flags: ['--no-sandbox']
+            }
+        },
+
         reporters: [
             'dots'
         ]
-    });
+    };
+
+    if(process.env.TRAVIS) {
+        configuration.browsers = ['Chrome_travis_ci'];
+    }
+
+    config.set(configuration);
 };

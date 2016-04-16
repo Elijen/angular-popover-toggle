@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/Elijen/angular-popover-toggle.svg?branch=master)](https://travis-ci.org/Elijen/angular-popover-toggle)
 
+## WARNING If you are using ui.bootstrap v0.13.4 or later you probably don't need this
+`is-open` attribute was added to the `ui.bootstrap.popover` in v0.13.4. This repository will no longer be maintaned.
+
+
 # angular-popover-toggle
 `popoverToggle` directive allowing manual control over AngularUI's popovers
 
